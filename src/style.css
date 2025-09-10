@@ -1,0 +1,115 @@
+
+/* Step 6 Create universal tag and set margin to 0
+padding to 0 */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Step 7 select nav tag and provide the necessary styling*/
+.navbar{
+    background-color: black;
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navlist{
+    display: flex;
+    gap: 40px;
+}
+
+.navlist li{
+    list-style: none;
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: gray;
+}
+
+.navlist li a:hover{
+    color: white;
+}
+
+/* Step 14 Select input tag and set width and padding*/
+input{
+    width: 70%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Step 15 Select searchbar class and set text-align:center 
+and also set padding*/
+
+.searchbar {
+    text-align: center;
+    padding: 20px;
+}
+
+/* Step 16 Go Back to HTML*/
+
+/* Step 22 target box class 
+fix display,border,width,alignment*/
+
+.box{
+    border: solid black 2px;
+    text-align: center;
+    width: 220px;
+}
+
+/* Step 23 fix image width*/
+
+img{
+    width: 220px;
+    height: 300px;
+}
+
+
+/* Step 24 set hover for box*/
+.box:hover{
+    border-color: black;
+    background-color: black;
+    color: white;
+}
+
+/*Step 25 select products class and set alignment to center 
+and padding */
+.products{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 30px;
+    gap: 10px;
+}
+
+/*Step 26 Go back to html */
+
+
+/*Step 29 Make about Text alignment center*/
+.about{
+    text-align: center;
+}
+
+/*Step 30 set pdding and width for p tag inside about*/
+/*Step 31 Go back to html*/
+.about p{
+    padding: 20px;
+    font-size: larger;
+}
+
+/*Step 36 select contact and set padding*/
+
+.contact{
+    padding: 20px;
+
+}
+
+/*Step 37 select footer and set bg col and text align center*/
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
